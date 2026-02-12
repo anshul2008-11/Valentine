@@ -260,16 +260,9 @@ function showFinal() {
     document.getElementById("finalMessage").style.display = "block";
 }
 
-/* Force autoplay attempt */
-window.addEventListener("load", function () {
-    const music = document.getElementById("bgMusic");
-    music.play().catch(() => {
-        console.log("Autoplay blocked, waiting for interaction...");
-    });
-});
-
 </script>
 
 </body>
 </html>
+
 
